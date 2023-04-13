@@ -1,0 +1,500 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'KonnectL';
+  font-size: x-large;
+  background: linear-gradient(0.62turn,#131350 50%, #5555c2);
+  background-color: #131350;
+  color: white;
+  position: relative;
+  z-index: -1;
+}
+
+h1{
+    font-family: 'KonnectM';
+}
+
+.shadowStyle1{
+    
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.253);
+}
+
+.homeContent, .experiencesContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.profilContent{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pcHeader{
+    height: auto;
+}
+
+.wallpaper{
+    /* linear-gradient(202deg, transparent 80%, #282875 95%), */
+    background-image: url("../../src/img/jpg/IA-back1.jpg");
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: inherit;
+    position: absolute;
+}
+
+
+
+.textContent, .aExpContent, .Card{
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    text-align: justify;
+    color: white;
+}
+
+.pCText{
+    padding-top: 70px;
+}
+
+.profilePhoto{
+    background-image: url("../../src/img/jpg/disgusting.jpg");
+    background-size: 100%;
+    width: 500px;
+    height: 500px;
+    border-radius: 35px;
+    position: relative;
+    top: 50%;
+}
+
+.statueContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.formationContent{
+    background-color: beige;
+    color: black;
+    border-radius: 20px;
+}
+
+.fullContactContent, .contactContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reverseBackColor{
+    background: linear-gradient(0.12turn,#131350, #5f5fd4);
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 60%);
+    border-radius: 15px;
+}
+
+.contactCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.contactContentInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.contactInfo{
+    width: 360px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contactInfo > p{
+    height: 45px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Qbert{
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cCInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ccItextA{
+    height: 100%;
+}
+
+input, textarea, button{
+    background-color: #0a0a2b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+}
+
+input, textarea{
+    margin-bottom: 5px;
+}
+
+textarea[name=message] {
+    margin-bottom: 10px;
+    resize: none;
+}
+
+button{
+    width: 40%;
+}
+
+.borderfC{
+    
+    height: 80px;
+    background: beige;
+    position: relative;
+}
+
+.btsLogoContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.btsLogo{
+    height: 100%;
+    position: relative;
+}
+
+.bfCTop{
+    bottom: -1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px #48392A solid;
+
+}
+
+.bfCBottom{
+    top: -1px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: 2px #48392A solid;
+}
+
+.contactContantText{
+    margin-bottom: 50px;
+}
+
+.icon2{
+    height: 50%;
+    width: auto;
+    filter: invert(1);
+}
+
+.icon.contact{
+    width: 30px;
+    height: 30px;
+}
+
+.icon.contact.phone{
+    background-image: url(../svg/iconmonstr-phone-3.svg);
+}
+
+.icon.contact.gmail{
+    background-image: url(../svg/iconmonstr-gmail-1.svg);
+}
+
+.icon.contact.map{
+    background-image: url(../svg/iconmonstr-map-8.svg);
+}
+
+footer{
+    /* visibility: hidden; */
+}
+
+footer{
+    /* border-top: beige 0.2px solid; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0a2b;
+    box-shadow: 0px -10px 20px 0px rgb(0 0 0 / 60%);
+    padding: 20px 0px 20px 0px;
+    gap: 20px;
+    position: relative;
+    z-index: -1;
+}
+
+.reseauContent, .linkContent{
+    display: flex;
+    gap: 20px;
+}
+
+.droitAuteurContent {
+    opacity: 0.5;
+    font-size: small;
+}
+
+.icon{
+    background-size: cover;
+    filter: invert(1);
+    width: 40px;
+    height: 40px;
+}
+
+.icon.footer.git{
+    background-image: url(../svg/iconmonstr-github-1.svg);
+}
+
+.icon.footer.linkedin{
+    background-image: url(../svg/iconmonstr-linkedin-3.svg);
+}
+
+.icon.footer.gmail{
+    background-image: url(../svg/iconmonstr-gmail-4.svg);
+}
+
+.icon.footer.detail{
+    background-image: url(../svg/iconmonstr-magnifier-dots-lined.svg);
+}
+
+.icon.footer.top{
+    background-image: url(../svg/iconmonstr-arrow-up-circle-filled.svg);
+    position: absolute;
+    right: 50px;
+}
+
+.experiencesContent{
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .outilsContent{
+    margin-top: 50px;
+} */
+
+.projetsContent{
+    margin-top: 50px;
+}
+
+.aExpContent{
+    text-align: center;
+    margin: auto;
+}
+
+.tb{
+    text-align: center;
+    margin: auto;
+}
+
+.Card{
+    background-color: beige;
+    border-radius: 20px;
+    color: black;
+    margin-bottom: 20px;
+    max-width: 332px;
+    font-size: smaller;
+}
+
+.Card.outils{
+    margin: 10px;
+}
+
+.imgContent, .imgContentPop{
+    height: 185px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: 
+        linear-gradient(0turn,#ffffff54 70%, #0000001f),
+        linear-gradient(0.5turn,#ffffff54 70%, #0000001f);
+    border-radius: 10px;
+}
+
+.imgContent.outilsIcon {
+    height: 100px;
+    width: 100px;
+}
+
+.imgContent.outilsIcon > img {
+    height: 80%;
+}
+
+.imgContentPop{
+    align-items: flex-start;
+    height: 225px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+
+.imgCard, .imgCard2{
+    height: 100%;
+    max-width: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+
+.imgCard2{
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.textCardContent {
+    max-height: 108px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    font-size: large;
+}
+
+.imgPop{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0px;
+}
+
+h4{
+    text-align: right;
+}
+
+h5, h6{
+    margin: 0;
+}
+
+h5{
+    border-top: 0.2px black solid;
+    padding-top: 20px;
+}
+
+.cardContent, .stagesContent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 500px) {
+
+    .fCWidth{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .Card{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .imgPop{
+        top: -30px;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+
+    .fullProfilContent{
+        display: flex;
+        height: 100vh;
+    }
+
+    .profilContent{
+        width: 50%;
+        height: auto;
+        padding: 45px;
+    }
+
+    .pcHeader{
+        height: auto;
+    }
+
+    .wallpaper{
+        -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+        width: inherit;
+        height: 100vh;
+    }
+
+    .profilePhoto{
+        top: 0;
+        width: 500px;
+        height: 500px;
+    }
+
+    .statueContent > p{
+        margin: 0 10% 0 10%;
+    }
+
+    .fCWidth{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contactContent{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .contactContantText, .contactContantCard{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactContantText{
+        align-items:flex-start;
+        margin-bottom: 0px;
+    }
+
+    .pCText{
+        font-size: initial;
+    }
+
+    .imgPop{
+        top: -60px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .pCText{
+        font-size: inherit;
+    }
+
+    .imgPop{
+        top: -175px;
+    }
+
+    .statueContent > p{
+        margin: 0 20% 0 20%;
+    }
+}
